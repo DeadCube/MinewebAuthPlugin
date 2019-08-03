@@ -1,7 +1,0 @@
-# Nécéssite le plugin AuthMineweb sur votre site
-
-# Url complet de votre site web sans /auth/
-url: "https://votresiteweb.com"
-
-# Débugger ?
-debug: false
