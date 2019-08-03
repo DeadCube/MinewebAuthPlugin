@@ -1,7 +1,0 @@
-name: MinewebAuthPlugin
-author: Fir3rl
-version: 1.0
-main: fr.fir3rl.authplugin.AuthPlugin
-commands:
-  login: 
-    description: Permet de se connecter via Mineweb
