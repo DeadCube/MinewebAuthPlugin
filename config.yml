@@ -1,0 +1,21 @@
+# Requiert le plugin AuthMineweb sur votre site
+# Ne requiert pas Mineweb Bridge
+
+# Url complet de votre site web mineweb sans /auth/
+url: "https://deadcube.ml"
+
+# Messages
+events:
+  breakblock: "Veuillez vous connecter pour casser des blocs !"
+  placeblock: "Veuillez vous connecter pour placer des blocs !"
+  othercommand: "Veuillez vous connecter pour utiliser cette commande !"
+  chatinteract: "Veuillez vous connecter pour discuter avec les autres utilisateurs !"
+commands:
+  nopass: "Veuillez entrer un mot de passe !"
+  wrongpass: "Identifiant/Mot de passe invalide !"
+  connected: "Connexion effectue !"
+  alreadyconnected: "Vous etes deja connecte !"
+joinmessage:
+  - "Bienvenue &b%PLAYER%&r sur &b%SERVER%&r !"
+  - "Nous sommes &4%PLAYERS% sur %MAXPLAYERS% en jeu !"
+hintmessage: "Pour vous connecter, merci de faire /login <mdp> . Le mot de passe est celui du site ."
