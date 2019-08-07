@@ -11,11 +11,16 @@ events:
   othercommand: "Veuillez vous connecter pour utiliser cette commande !"
   chatinteract: "Veuillez vous connecter pour discuter avec les autres utilisateurs !"
 commands:
-  nopass: "Veuillez entrer un mot de passe !"
-  wrongpass: "Identifiant/Mot de passe invalide !"
-  connected: "Connexion effectue !"
-  alreadyconnected: "Vous etes deja connecte !"
+  login:
+    nopass: "Veuillez entrer un mot de passe !"
+    wrongpass: "Identifiant/Mot de passe invalide !"
+    connected: "Connexion effectue !"
+    alreadyconnected: "Vous etes deja connecte !"
+  forcelogin:
+    success: "Vous avez ete forcelogin . Vous etes connecte"
+    noplayer: "Joueur introuvable"
+    needarg: "Il vous faut définir un joueur !"
 joinmessage:
   - "Bienvenue &b%PLAYER%&r sur &b%SERVER%&r !"
-  - "Nous sommes &4%PLAYERS% sur %MAXPLAYERS% en jeu !"
+  - "Nous sommes &4%PLAYERS%&r sur &4%MAXPLAYERS%&r en jeu !"
 hintmessage: "Pour vous connecter, merci de faire /login <mdp> . Le mot de passe est celui du site ."
