@@ -5,3 +5,6 @@ main: fr.fir3rl.authplugin.AuthPlugin
 commands:
   login: 
     description: Permet de se connecter via Mineweb
+  forcelogin: 
+    description: Forcez la connexion d'un joueur
+    permission: authplugin.admin.forcelogin
