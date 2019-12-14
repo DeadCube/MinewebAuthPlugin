@@ -8,3 +8,7 @@ commands:
   forcelogin: 
     description: Forcez la connexion d'un joueur
     permission: authplugin.admin.forcelogin
+  unlock:
+    permission: authplugin.admin.unlock
+  authversion:
+    description: Donne la version du plugin
