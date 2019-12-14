@@ -10,6 +10,7 @@ events:
   placeblock: "Veuillez vous connecter pour placer des blocs !"
   othercommand: "Veuillez vous connecter pour utiliser cette commande !"
   chatinteract: "Veuillez vous connecter pour discuter avec les autres utilisateurs !"
+  dropitem: "Veuillez vous connecter pour lâcher des items"
 commands:
   login:
     nopass: "Veuillez entrer un mot de passe !"
@@ -20,7 +21,20 @@ commands:
     success: "Vous avez ete forcelogin . Vous etes connecte"
     noplayer: "Joueur introuvable"
     needarg: "Il vous faut définir un joueur !"
+  unlock:
+    success: "Vous venez de débloquer tout le monde ! Mais attention !"
 joinmessage:
   - "Bienvenue &b%PLAYER%&r sur &b%SERVER%&r !"
   - "Nous sommes &4%PLAYERS%&r sur &4%MAXPLAYERS%&r en jeu !"
 hintmessage: "Pour vous connecter, merci de faire /login <mdp> . Le mot de passe est celui du site ."
+
+# CustomSpawnZone
+# Permet de définir un zone où apparaissent les joueurs avant de se connecter . Une fois connectés, les joueurs sont téléportés dans leur ancien emplacement
+# world : String
+# x,y,z : int
+csz:
+  world: DeadCube
+  x: 0 
+  y: 75
+  z: 0
+  enabled: false
