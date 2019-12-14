@@ -9,4 +9,4 @@ Plugin destiné aux serveurs minecraft crackés de permettre de protéger leur s
 - [x] Ajouter une configuration valide des messages
 - [x] Empêcher l'usage de commandes lors de la connexion
 - [ ] Permettre la reconnaissance par ip
-- [ ] Permettre de forcer la connexion grâce à un autre joueur avec /forcelogin <Player>
+- [x] Permettre de forcer la connexion grâce à un autre joueur avec /forcelogin <Player>
