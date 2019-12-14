@@ -39,7 +39,10 @@ public class AuthCommands implements CommandExecutor {
 						+ "&password=" + password);
 				// TODO Auto-generated catch block
 				if (json.startsWith("{")) {
+					player.teleport(main.newPlayersLocations.get(main.newPlayers.lastIndexOf(player.getName())));
+					main.newPlayersLocations.remove(main.newPlayers.lastIndexOf(player.getName()));
 					main.newPlayers.remove(player.getName());
+
 					player.sendMessage(main.readString("commands.login.connected"));
 					for (String elem : main.readStrings("joinmessage")) {
 						Bukkit.broadcastMessage(
@@ -81,6 +84,16 @@ public class AuthCommands implements CommandExecutor {
 			}
 
 		}
+		
+		if(cmd.getName().equalsIgnoreCase("unlock")) {
+			
+			main.newPlayers.clear();
+			sender.sendMessage(main.getConfig().getString("commands.unlock.success"));
+			
+		}
+		
+		if(cmd.getName().equalsIgnoreCase("authversion"))
+			sender.sendMessage("1.2");
 		return false;
 
 	}
